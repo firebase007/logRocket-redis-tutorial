@@ -1,0 +1,17 @@
+{
+  "name": "logrocket-redis-tutorial",
+  "version": "1.0.0",
+  "description": "logRocket-Redis-Tutorial",
+  "scripts": {
+    "server": "node redisClientConnection.js",
+    "app": "node app/test.js",
+    "dev": "concurrently \"npm run server\" \"npm run app\""
+  },
+  "author": "Alexander Nnakwue",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "dotenv": "^8.2.0",
+    "redis": "^2.8.0"
+  }
+}
